@@ -1,0 +1,44 @@
+<!-- item_proyecto.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvProyectoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código de proyecto: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCodigoActividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código de actividad: " />
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: " />
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha: " />
+
+    <TextView
+        android:id="@+id/tvObservacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observación: " />
+</LinearLayout>
